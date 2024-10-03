@@ -173,8 +173,13 @@ namespace DataAccess.dbContext_Access
                 .WithMany(u => u._StudyingCourses)
                 .HasForeignKey(s => s.CourseId)
                 .OnDelete(DeleteBehavior.Cascade);
-
-
+            //Role-Seeder
+            modelBuilder.Entity<Role>()
+                .HasData(
+                new {RoleId = Guid.NewGuid(), RoleName = "Admin", Status = "None"},
+                new { RoleId = Guid.NewGuid(), RoleName = "Student", Status = "None" },
+                new { RoleId = Guid.NewGuid(), RoleName = "Tutor", Status = "None" }
+                );
         }
     }
 

@@ -48,5 +48,6 @@ namespace DataObject
         public ICollection<Event>? _Events {  get; set; }
         public ICollection<Feedback>? _Feedbacks { get; set; }
         public ICollection<Feedback>? _FeedbacksAbout { get; set; }
+        public DateTime UpdateDate {  get; set; }
     }
 }

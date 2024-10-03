@@ -12,12 +12,12 @@ namespace DataAccess.Repos
         Task CreateUserAsync(User user);
         Task<bool> UpdateUserrAsync(Guid id, User user);
         Task<bool> DeleteUserAsync(Guid id);
-        Task<User> GetUserAsync(Guid id);
+        Task<User?> GetUserAsync(Guid id);
         Task<IEnumerable<User>> GetEveryUsersAsync();
         Task<bool> FindExistUserAsync(Guid id);
 
-        Task<User> LoginAuthenitcateAsync(string Email, string Password);
-        Task<User> GetUserByEmailOnlyAsync(string Email);
+        Task<User?> LoginAuthenitcateAsync(string Email, string Password);
+        Task<User?> GetUserByEmailOnlyAsync(string Email);
         Task<bool> CheckPasswordAsync(string password, User user);
         Task<bool> ChangePasswordAsync(string oldPassword, string newPassword, Guid Id);
 
