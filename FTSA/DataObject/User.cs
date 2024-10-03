@@ -37,12 +37,6 @@ namespace DataObject
         public DateTime DateOfBirth { get; set; }
         [Column(TypeName = "nvarchar(50)")]
         [Required(ErrorMessage = "This field is required")]
-        public string? City {  get; set; }
-        [Column(TypeName = "nvarchar(50)")]
-        [Required(ErrorMessage = "This field is required")]
-        public string? District { get; set; }
-        [Column(TypeName = "nvarchar(50)")]
-        [Required(ErrorMessage = "This field is required")]
         public string? PlaceOfWork {  get; set; }
         public string? CitizenId {  get; set; }
         public StudentDetails? _Student { get; set; }
