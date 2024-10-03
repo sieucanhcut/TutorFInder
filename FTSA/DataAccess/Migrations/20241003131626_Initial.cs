@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace DataAccess.Migrations
 {
     /// <inheritdoc />
@@ -62,12 +64,11 @@ namespace DataAccess.Migrations
                     PhoneNumber = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     PhoneNumber2 = table.Column<string>(type: "nvarchar(50)", nullable: true),
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    City = table.Column<string>(type: "nvarchar(50)", nullable: false),
-                    District = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     PlaceOfWork = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     CitizenId = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     RoleId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    LocationId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
+                    LocationId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -352,6 +353,16 @@ namespace DataAccess.Migrations
                         column: x => x.ReceiverId,
                         principalTable: "Users",
                         principalColumn: "UserId");
+                });
+
+            migrationBuilder.InsertData(
+                table: "Roles",
+                columns: new[] { "RoleId", "RoleName", "Status" },
+                values: new object[,]
+                {
+                    { new Guid("1dfca488-66fe-400b-a764-590805f45271"), "Tutor", "None" },
+                    { new Guid("af29b3b7-4f98-49b2-abe5-fca5fca2240c"), "Student", "None" },
+                    { new Guid("f4ae5d0a-d55f-49ef-99e2-7683fc035252"), "Admin", "None" }
                 });
 
             migrationBuilder.CreateIndex(

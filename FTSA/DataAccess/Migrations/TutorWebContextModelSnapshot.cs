@@ -240,6 +240,26 @@ namespace DataAccess.Migrations
                     b.HasKey("RoleId");
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            RoleId = new Guid("f4ae5d0a-d55f-49ef-99e2-7683fc035252"),
+                            RoleName = "Admin",
+                            Status = "None"
+                        },
+                        new
+                        {
+                            RoleId = new Guid("af29b3b7-4f98-49b2-abe5-fca5fca2240c"),
+                            RoleName = "Student",
+                            Status = "None"
+                        },
+                        new
+                        {
+                            RoleId = new Guid("1dfca488-66fe-400b-a764-590805f45271"),
+                            RoleName = "Tutor",
+                            Status = "None"
+                        });
                 });
 
             modelBuilder.Entity("DataObject.StudentDetails", b =>
@@ -417,16 +437,8 @@ namespace DataAccess.Migrations
                     b.Property<string>("CitizenId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)");
-
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("District")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -456,6 +468,9 @@ namespace DataAccess.Migrations
 
                     b.Property<Guid>("RoleId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("UserName")
                         .IsRequired()
