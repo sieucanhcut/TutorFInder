@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FTSA_Application.props" />
+</Project>

@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Select Role";
+}
+
+<h2>Select Your Role</h2>
+
+<form asp-action="SelectRole" method="post">
+    <div class="form-group">
+        <label>Select your role:</label><br />
+        <input type="radio" name="role" value="Student" id="student" required />
+        <label for="student">Parent/Student</label><br />
+        <input type="radio" name="role" value="Tutor" id="tutor" required />
+        <label for="tutor">Tutor</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">Continue to Sign Up</button>
+</form>

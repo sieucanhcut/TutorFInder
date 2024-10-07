@@ -244,19 +244,19 @@ namespace DataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            RoleId = new Guid("f4ae5d0a-d55f-49ef-99e2-7683fc035252"),
+                            RoleId = new Guid("725f87d0-16a3-4809-b4df-64791a448ecb"),
                             RoleName = "Admin",
                             Status = "None"
                         },
                         new
                         {
-                            RoleId = new Guid("af29b3b7-4f98-49b2-abe5-fca5fca2240c"),
+                            RoleId = new Guid("eed61d14-a262-4089-aa74-12f6753ea158"),
                             RoleName = "Student",
                             Status = "None"
                         },
                         new
                         {
-                            RoleId = new Guid("1dfca488-66fe-400b-a764-590805f45271"),
+                            RoleId = new Guid("253a2115-82b7-4fe4-b4ae-fd74035985eb"),
                             RoleName = "Tutor",
                             Status = "None"
                         });
@@ -448,6 +448,9 @@ namespace DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<bool>("IsEmailConfirmed")
+                        .HasColumnType("bit");
+
                     b.Property<Guid?>("LocationId")
                         .HasColumnType("uniqueidentifier");
 
@@ -465,6 +468,15 @@ namespace DataAccess.Migrations
                     b.Property<string>("PlaceOfWork")
                         .IsRequired()
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime>("RegistrationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ResetToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ResetTokenExpiry")
+                        .HasColumnType("datetime2");
 
                     b.Property<Guid>("RoleId")
                         .HasColumnType("uniqueidentifier");

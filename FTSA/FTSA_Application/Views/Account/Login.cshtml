@@ -1,0 +1,25 @@
+﻿@model SignInModel
+
+<div class="container mt-5">
+    <h2 class="text-center text-success">Sign In</h2>
+
+    <form asp-action="Login" method="post" class="w-50 mx-auto">
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label text-success"></label>
+            <input asp-for="Email" class="form-control border-success" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label text-success"></label>
+            <input asp-for="Password" class="form-control border-success" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-success">Sign In</button>
+        </div>
+        <a href="/Account/ForgotPassword" class="text-decoration-none">Forgot Password?</a>
+
+    </form>
+</div>

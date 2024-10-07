@@ -2,7 +2,7 @@ using FTSA_Application.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace FTSA_Application.Controllers
+namespace FSTAWebApplication.Controllers
 {
     public class HomeController : Controller
     {

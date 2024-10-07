@@ -12,7 +12,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentEmail.Razor" Version="3.0.2" />
+    <PackageReference Include="FluentEmail.Smtp" Version="3.0.2" />
     <PackageReference Include="React.Core" Version="5.2.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\DataObject\DataObject.csproj" />
   </ItemGroup>
 
 </Project>
