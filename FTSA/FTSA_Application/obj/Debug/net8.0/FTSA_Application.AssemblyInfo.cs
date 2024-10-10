@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FTSA_Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4b5e429d441529f0dc71702bfbf7718cf13652f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0c5479d497c45c5e4b8611bac4f1f6d76b8df87")]
 [assembly: System.Reflection.AssemblyProductAttribute("FTSA_Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FTSA_Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

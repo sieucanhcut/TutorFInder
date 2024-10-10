@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(TutorWebContext))]
-    [Migration("20241002121954_Initial")]
+    [Migration("20241010043927_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -224,7 +224,27 @@ namespace DataAccess.Migrations
 
                     b.HasKey("LocationId");
 
-                    b.ToTable("Location");
+                    b.ToTable("Locations");
+
+                    b.HasData(
+                        new
+                        {
+                            LocationId = new Guid("43c02fe9-49d2-4b63-87ce-d8f1bdb15504"),
+                            CityOrProvince = "Da Nang",
+                            District = "Hai Chau"
+                        },
+                        new
+                        {
+                            LocationId = new Guid("e8f56f4c-2b0d-49c4-838a-ff63cf3d23b7"),
+                            CityOrProvince = "Da Nang",
+                            District = "Thank Khe"
+                        },
+                        new
+                        {
+                            LocationId = new Guid("b8769ff1-149b-4994-8362-a91c47ebcaf2"),
+                            CityOrProvince = "Da Nang",
+                            District = "Son Tra"
+                        });
                 });
 
             modelBuilder.Entity("DataObject.Role", b =>
@@ -243,6 +263,26 @@ namespace DataAccess.Migrations
                     b.HasKey("RoleId");
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            RoleId = new Guid("289f85a7-9167-4394-8688-ed6a979e02e8"),
+                            RoleName = "Admin",
+                            Status = "None"
+                        },
+                        new
+                        {
+                            RoleId = new Guid("da604094-b27a-4192-99d9-0445fad1f5ac"),
+                            RoleName = "Student",
+                            Status = "None"
+                        },
+                        new
+                        {
+                            RoleId = new Guid("7c2689f8-26e6-4456-bbc6-9f08c253d118"),
+                            RoleName = "Tutor",
+                            Status = "None"
+                        });
                 });
 
             modelBuilder.Entity("DataObject.StudentDetails", b =>
@@ -420,16 +460,8 @@ namespace DataAccess.Migrations
                     b.Property<string>("CitizenId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)");
-
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("District")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -438,6 +470,9 @@ namespace DataAccess.Migrations
                     b.Property<string>("Gender")
                         .IsRequired()
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("IsEmailConfirmed")
+                        .HasColumnType("bit");
 
                     b.Property<Guid?>("LocationId")
                         .HasColumnType("uniqueidentifier");
@@ -457,8 +492,20 @@ namespace DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<DateTime>("RegistrationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ResetToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ResetTokenExpiry")
+                        .HasColumnType("datetime2");
+
                     b.Property<Guid>("RoleId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("UserName")
                         .IsRequired()

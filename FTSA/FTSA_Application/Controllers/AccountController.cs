@@ -39,7 +39,8 @@ namespace FSTAWebApplication.Controllers
                     {
                         new Claim(ClaimTypes.Name, user.UserName),
                         new Claim(ClaimTypes.Email, user.Email),
-                        new Claim(ClaimTypes.Role, user.RoleId.ToString())
+                        new Claim(ClaimTypes.Role, user.RoleId.ToString()),
+                        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString())
                     };
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -119,7 +120,6 @@ namespace FSTAWebApplication.Controllers
                     RegistrationDate = DateTime.UtcNow 
 
                 };
-
                 try
                 {
                     _context.Users.Add(user);

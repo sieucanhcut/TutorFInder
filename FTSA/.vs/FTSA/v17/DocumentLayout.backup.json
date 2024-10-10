@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3B3DA5-D394-45F5-A5D7-0236C49A6CA2}|FTSA_Application\\FTSA_Application.csproj|c:\\users\\boss\\desktop\\mock\\ftsa\\ftsa_application\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3B3DA5-D394-45F5-A5D7-0236C49A6CA2}|FTSA_Application\\FTSA_Application.csproj|solutionrelative:ftsa_application\\controllers\\tutorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3B3DA5-D394-45F5-A5D7-0236C49A6CA2}|FTSA_Application\\FTSA_Application.csproj|c:\\users\\boss\\desktop\\mock\\ftsa\\ftsa_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3B3DA5-D394-45F5-A5D7-0236C49A6CA2}|FTSA_Application\\FTSA_Application.csproj|solutionrelative:ftsa_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BE0DA9-54E6-4A9C-BB67-C4F8A91057CE}|DataObject\\DataObject.csproj|c:\\users\\boss\\desktop\\mock\\ftsa\\dataobject\\tutordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BE0DA9-54E6-4A9C-BB67-C4F8A91057CE}|DataObject\\DataObject.csproj|solutionrelative:dataobject\\tutordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TutorController.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\FTSA_Application\\Controllers\\TutorController.cs",
+              "RelativeDocumentMoniker": "FTSA_Application\\Controllers\\TutorController.cs",
+              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\FTSA_Application\\Controllers\\TutorController.cs",
+              "RelativeToolTip": "FTSA_Application\\Controllers\\TutorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:00:06.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TutorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\DataObject\\TutorDetails.cs",
+              "RelativeDocumentMoniker": "DataObject\\TutorDetails.cs",
+              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\DataObject\\TutorDetails.cs",
+              "RelativeToolTip": "DataObject\\TutorDetails.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T02:18:01.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\FTSA_Application\\Program.cs",
+              "RelativeDocumentMoniker": "FTSA_Application\\Program.cs",
+              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\FTSA_Application\\Program.cs",
+              "RelativeToolTip": "FTSA_Application\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:52:55.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

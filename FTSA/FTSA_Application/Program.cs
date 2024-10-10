@@ -1,4 +1,6 @@
 ﻿using DataAccess.dbContext_Access;
+using DataAccess.Repos;
+using DataAccess.Service;
 using FluentEmail.Core;
 using FluentEmail.Smtp;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -12,6 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<TutorWebContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("TutorWebDB")));
+
+//Add scoped
+builder.Services.AddScoped<ITutorRepository, TutorRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ILocationRepository, LocationRepository>();
 
 // Configure authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

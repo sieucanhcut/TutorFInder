@@ -21,13 +21,13 @@ namespace DataAccess.Service
         }
         public async Task<bool> ChangePasswordAsync(string oldPassword, string newPassword, Guid Id)
         {
-            var existUsers = await(from user in _tutorWebContext.Users
+            var existUser = await(from user in _tutorWebContext.Users
                                    where user.UserId == Id 
                                    & user.Password == oldPassword
                                    select user).FirstOrDefaultAsync();
-            if (existUsers == null) return false;
-            existUsers.Password = newPassword;
-            await _tutorWebContext.AddAsync(existUsers);
+            if (existUser == null) return false;
+            existUser.Password = newPassword;
+            _tutorWebContext.Users.Update(existUser);
             return await _tutorWebContext.SaveChangesAsync() > 0;
         }
 
@@ -149,7 +149,7 @@ namespace DataAccess.Service
             userToUpdate.LocationId = user.LocationId;
             userToUpdate.RoleId = user.RoleId;
             userToUpdate.UpdateDate = DateTime.UtcNow;
-             await _tutorWebContext.AddAsync(userToUpdate);
+            _tutorWebContext.Users.Update(userToUpdate);
             return await _tutorWebContext.SaveChangesAsync() > 0;
         }
     }

@@ -20,6 +20,7 @@ namespace DataAccess.dbContext_Access
         public DbSet<TutionFeeSchedule> TutionFeeSchedules { get; set; }
         public DbSet<TutorDetails> Tutors { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Location> Locations { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -179,6 +180,13 @@ namespace DataAccess.dbContext_Access
                 new {RoleId = Guid.NewGuid(), RoleName = "Admin", Status = "None"},
                 new { RoleId = Guid.NewGuid(), RoleName = "Student", Status = "None" },
                 new { RoleId = Guid.NewGuid(), RoleName = "Tutor", Status = "None" }
+                );
+            //Location-Seeder
+            modelBuilder.Entity<Location>()
+                .HasData(
+                new{ LocationId = Guid.NewGuid(), CityOrProvince = "Da Nang", District ="Hai Chau"},
+                new { LocationId = Guid.NewGuid(), CityOrProvince = "Da Nang", District = "Thank Khe" },
+                new { LocationId = Guid.NewGuid(), CityOrProvince = "Da Nang", District = "Son Tra" }
                 );
         }
     }

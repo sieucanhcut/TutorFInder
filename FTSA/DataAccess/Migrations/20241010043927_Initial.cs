@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace DataAccess.Migrations
 {
     /// <inheritdoc />
@@ -24,7 +26,7 @@ namespace DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Location",
+                name: "Locations",
                 columns: table => new
                 {
                     LocationId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
@@ -34,7 +36,7 @@ namespace DataAccess.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Location", x => x.LocationId);
+                    table.PrimaryKey("PK_Locations", x => x.LocationId);
                 });
 
             migrationBuilder.CreateTable(
@@ -61,21 +63,24 @@ namespace DataAccess.Migrations
                     Email = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     PhoneNumber2 = table.Column<string>(type: "nvarchar(50)", nullable: true),
+                    ResetToken = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ResetTokenExpiry = table.Column<DateTime>(type: "datetime2", nullable: true),
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    City = table.Column<string>(type: "nvarchar(50)", nullable: false),
-                    District = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    RegistrationDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PlaceOfWork = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     CitizenId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    IsEmailConfirmed = table.Column<bool>(type: "bit", nullable: false),
                     RoleId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    LocationId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
+                    LocationId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.UserId);
                     table.ForeignKey(
-                        name: "FK_Users_Location_LocationId",
+                        name: "FK_Users_Locations_LocationId",
                         column: x => x.LocationId,
-                        principalTable: "Location",
+                        principalTable: "Locations",
                         principalColumn: "LocationId");
                     table.ForeignKey(
                         name: "FK_Users_Roles_RoleId",
@@ -354,6 +359,26 @@ namespace DataAccess.Migrations
                         principalColumn: "UserId");
                 });
 
+            migrationBuilder.InsertData(
+                table: "Locations",
+                columns: new[] { "LocationId", "CityOrProvince", "District", "UpdateDate" },
+                values: new object[,]
+                {
+                    { new Guid("43c02fe9-49d2-4b63-87ce-d8f1bdb15504"), "Da Nang", "Hai Chau", null },
+                    { new Guid("b8769ff1-149b-4994-8362-a91c47ebcaf2"), "Da Nang", "Son Tra", null },
+                    { new Guid("e8f56f4c-2b0d-49c4-838a-ff63cf3d23b7"), "Da Nang", "Thank Khe", null }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Roles",
+                columns: new[] { "RoleId", "RoleName", "Status" },
+                values: new object[,]
+                {
+                    { new Guid("289f85a7-9167-4394-8688-ed6a979e02e8"), "Admin", "None" },
+                    { new Guid("7c2689f8-26e6-4456-bbc6-9f08c253d118"), "Tutor", "None" },
+                    { new Guid("da604094-b27a-4192-99d9-0445fad1f5ac"), "Student", "None" }
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Contacts_StudentId",
                 table: "Contacts",
@@ -493,7 +518,7 @@ namespace DataAccess.Migrations
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Location");
+                name: "Locations");
 
             migrationBuilder.DropTable(
                 name: "Roles");

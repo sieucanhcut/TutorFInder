@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataAccess
-build_property.ProjectDir = D:\count\Doan\Source\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\FTSA\DataAccess\
+build_property.ProjectDir = C:\Users\BOSS\Desktop\MOCK\FTSA\DataAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

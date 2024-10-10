@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\DataObject\\DataObject.csproj": {}
+    "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\DataObject\\DataObject.csproj": {}
   },
   "projects": {
-    "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\DataObject\\DataObject.csproj": {
+    "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\DataObject\\DataObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\DataObject\\DataObject.csproj",
+        "projectUniqueName": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\DataObject\\DataObject.csproj",
         "projectName": "DataObject",
-        "projectPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\DataObject\\DataObject.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\DataObject\\obj\\",
+        "projectPath": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\DataObject\\DataObject.csproj",
+        "packagesPath": "C:\\Users\\BOSS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BOSS\\Desktop\\MOCK\\FTSA\\DataObject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BOSS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,73 @@
+﻿@model DataObject.TutorDetails
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo hồ sơ gia sư</title>
+    <link href="~/css/tutorCreate.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <h2>Tạo hồ sơ gia sư</h2>
+        <form asp-action="Create" method="post">
+            <label for="TutorName">Thông tin gia sư  @ViewBag.UserName</label>
+            <!-- Job Title -->
+            <input asp-for="UserId" value="@ViewBag.UserId" hidden/> 
+            <label for="title">Chức danh:</label>
+            <select asp-for="Title" id="title" name="title" class="full-width">
+                <option value="student">Sinh viên</option>
+                <option value="teacher">Giáo viên</option>
+                <option value="graduate_student">Sinh viên tốt nghiệp</option>
+            </select>
+            <!--Add transportation-->
+            <label for="transportation">Phương tiện:</label>
+            <input asp-for="Transportation" type="text" id="phone2" name="transportation">
+                <!-- Add faculty -->
+            </select>
+
+            <label for="faculty">Khoa:</label>
+            <input type="text" id="faculty" name="faculty">
+
+            <!-- Online Teaching Option -->
+            <div class="online-teaching full-width">
+                <label>Dạy online:</label>
+                <input type="radio" id="teach-online-yes" name="online_teaching" value="yes" checked>
+                <label for="teach-online-yes">Có</label>
+                <input type="radio" id="teach-online-no" name="online_teaching" value="no">
+                <label for="teach-online-no">Không</label>
+            </div>
+
+            <!-- Self Introduction -->
+            <label for="introduction" class="full-width">Tự giới thiệu:</label>
+            <textarea id="introduction" name="introduction" rows="4" class="full-width"></textarea>
+
+            <!-- Achievements -->
+            <label for="achievements" class="full-width">Thành tích dạy học:</label>
+            <textarea id="achievements" name="achievements" rows="4" class="full-width"></textarea>
+
+            <!-- Specialties -->
+            <label for="specialties" class="full-width">Điểm nổi bật:</label>
+            <select id="specialties" name="specialties" class="full-width">
+                <option value="">-- Điểm nổi bật --</option>
+                <!-- Add specialties options here -->
+            </select>
+
+            <!-- Image Upload -->
+            <label for="profile-pic" class="full-width">Ảnh của bạn (bắt buộc):</label>
+            <input type="file" id="profile-pic" name="profile-pic" accept="image/*" class="full-width">
+
+            <!-- Additional Documents -->
+            <label for="attachments" class="full-width">Các ảnh đính kèm (bắt buộc):</label>
+            <input type="file" id="attachments" name="attachments" accept="image/*" multiple class="full-width">
+
+            <!-- Submission -->
+            <button type="submit">Tạo hồ sơ</button>
+        </form>
+        <p class="note">Lưu ý: Để tránh kê khai sử dụng sai mục đích, không upload CMND, thẻ SV lên nhé.</p>
+    </div>
+
+</body>
+</html>

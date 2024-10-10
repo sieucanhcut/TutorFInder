@@ -221,7 +221,27 @@ namespace DataAccess.Migrations
 
                     b.HasKey("LocationId");
 
-                    b.ToTable("Location");
+                    b.ToTable("Locations");
+
+                    b.HasData(
+                        new
+                        {
+                            LocationId = new Guid("43c02fe9-49d2-4b63-87ce-d8f1bdb15504"),
+                            CityOrProvince = "Da Nang",
+                            District = "Hai Chau"
+                        },
+                        new
+                        {
+                            LocationId = new Guid("e8f56f4c-2b0d-49c4-838a-ff63cf3d23b7"),
+                            CityOrProvince = "Da Nang",
+                            District = "Thank Khe"
+                        },
+                        new
+                        {
+                            LocationId = new Guid("b8769ff1-149b-4994-8362-a91c47ebcaf2"),
+                            CityOrProvince = "Da Nang",
+                            District = "Son Tra"
+                        });
                 });
 
             modelBuilder.Entity("DataObject.Role", b =>
@@ -244,19 +264,19 @@ namespace DataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            RoleId = new Guid("725f87d0-16a3-4809-b4df-64791a448ecb"),
+                            RoleId = new Guid("289f85a7-9167-4394-8688-ed6a979e02e8"),
                             RoleName = "Admin",
                             Status = "None"
                         },
                         new
                         {
-                            RoleId = new Guid("eed61d14-a262-4089-aa74-12f6753ea158"),
+                            RoleId = new Guid("da604094-b27a-4192-99d9-0445fad1f5ac"),
                             RoleName = "Student",
                             Status = "None"
                         },
                         new
                         {
-                            RoleId = new Guid("253a2115-82b7-4fe4-b4ae-fd74035985eb"),
+                            RoleId = new Guid("7c2689f8-26e6-4456-bbc6-9f08c253d118"),
                             RoleName = "Tutor",
                             Status = "None"
                         });

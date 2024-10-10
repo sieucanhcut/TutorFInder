@@ -15,7 +15,6 @@ namespace DataAccess.Repos
         Task<User?> GetUserAsync(Guid id);
         Task<IEnumerable<User>> GetEveryUsersAsync();
         Task<bool> FindExistUserAsync(Guid id);
-
         Task<User?> LoginAuthenitcateAsync(string Email, string Password);
         Task<User?> GetUserByEmailOnlyAsync(string Email);
         Task<bool> CheckPasswordAsync(string password, User user);
