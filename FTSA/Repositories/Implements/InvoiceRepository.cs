@@ -1,0 +1,18 @@
+﻿using DataAccess.dbContext_Access;
+using Entities;
+using Repositories.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Repositories.Implements
+{
+    public class InvoiceRepository : RepositoryBase<Invoice>, IInvoiceRepository
+    {
+        public InvoiceRepository(TutorWebContext dataContext) : base(dataContext)
+        {
+        }
+    }
+}
