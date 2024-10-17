@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\ApiProject\\ApiProject.csproj": {}
+    "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\ApiProject.csproj": {}
   },
   "projects": {
-    "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\ApiProject\\ApiProject.csproj": {
+    "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\ApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\ApiProject\\ApiProject.csproj",
+        "projectUniqueName": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\ApiProject.csproj",
         "projectName": "ApiProject",
-        "projectPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\ApiProject\\ApiProject.csproj",
+        "projectPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\ApiProject.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\ApiProject\\obj\\",
+        "outputPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

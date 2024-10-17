@@ -4588,11 +4588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Entities.csproj",
+      "projectUniqueName": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Entities.csproj",
+      "projectPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\obj\\",
+      "outputPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\",
+  "WorkspaceRootPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\entities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\entities\\tutorwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\tutorwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\tutorwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|solutionrelative:services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\repositories\\intefaces\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\intefaces\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\repositories\\intefaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\intefaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\repositories\\implements\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\implements\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implements\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\repositories\\intefaces\\icontractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\intefaces\\icontractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\icontractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\repositories\\intefaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\intefaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\repositories\\intefaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\intefaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\entities\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\building-an-application-to-find-tutors-for-students-using-.net-sql-server-reactjs-technology\\ftsa\\repositories\\implements\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\implements\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implements\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,12 +93,16 @@
               "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:70:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\appsettings.json",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\appsettings.json",
               "RelativeDocumentMoniker": "Entities\\appsettings.json",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\appsettings.json",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\appsettings.json",
               "RelativeToolTip": "Entities\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -109,9 +113,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\ApiProject\\appsettings.json",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\appsettings.json",
               "RelativeDocumentMoniker": "ApiProject\\appsettings.json",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\ApiProject\\appsettings.json",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\appsettings.json",
               "RelativeToolTip": "ApiProject\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -121,9 +125,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Entities.csproj",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Entities.csproj",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj",
               "RelativeDocumentMoniker": "Entities\\Entities.csproj",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Entities.csproj",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj",
               "RelativeToolTip": "Entities\\Entities.csproj",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -133,9 +137,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Services\\Class1.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Class1.cs",
               "RelativeDocumentMoniker": "Services\\Class1.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Services\\Class1.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Class1.cs",
               "RelativeToolTip": "Services\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "IRoleRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IRoleRepository.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Intefaces\\IRoleRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IRoleRepository.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IRoleRepository.cs",
               "RelativeToolTip": "Repositories\\Intefaces\\IRoleRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,9 +161,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "IRepositoryManager.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IRepositoryManager.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IRepositoryManager.cs",
               "RelativeDocumentMoniker": "Repositories\\Intefaces\\IRepositoryManager.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IRepositoryManager.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IRepositoryManager.cs",
               "RelativeToolTip": "Repositories\\Intefaces\\IRepositoryManager.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAwwBgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,9 +173,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IContractRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IContractRepository.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IContractRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Intefaces\\IContractRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IContractRepository.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IContractRepository.cs",
               "RelativeToolTip": "Repositories\\Intefaces\\IContractRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,9 +185,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TutorWebContext.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\TutorWebContext.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\TutorWebContext.cs",
               "RelativeDocumentMoniker": "Entities\\TutorWebContext.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\TutorWebContext.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\TutorWebContext.cs",
               "RelativeToolTip": "Entities\\TutorWebContext.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAewCAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,9 +197,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\ICourseRepository.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\ICourseRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Intefaces\\ICourseRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\ICourseRepository.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\ICourseRepository.cs",
               "RelativeToolTip": "Repositories\\Intefaces\\ICourseRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,9 +209,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "IEventRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IEventRepository.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IEventRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Intefaces\\IEventRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Intefaces\\IEventRepository.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IEventRepository.cs",
               "RelativeToolTip": "Repositories\\Intefaces\\IEventRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,9 +221,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Implements\\RepositoryBase.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Implements\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Repositories\\Implements\\RepositoryBase.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Implements\\RepositoryBase.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Implements\\RepositoryBase.cs",
               "RelativeToolTip": "Repositories\\Implements\\RepositoryBase.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAA3wAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,9 +233,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ContractRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Implements\\ContractRepository.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Implements\\ContractRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Implements\\ContractRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Implements\\ContractRepository.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Implements\\ContractRepository.cs",
               "RelativeToolTip": "Repositories\\Implements\\ContractRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -241,9 +245,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Contract.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Models\\Contract.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Contract.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\Contract.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Models\\Contract.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Contract.cs",
               "RelativeToolTip": "Entities\\Models\\Contract.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAADwvwoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

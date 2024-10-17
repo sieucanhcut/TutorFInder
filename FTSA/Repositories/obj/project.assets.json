@@ -4610,11 +4610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Repositories\\obj\\",
+      "outputPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4632,8 +4632,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\count\\Doan\\Source\\Building-an-application-to-find-tutors-for-students-using-.NET-SQL-Server-ReactJS-technology\\FTSA\\Entities\\Entities.csproj"
+            "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj"
             }
           }
         }
