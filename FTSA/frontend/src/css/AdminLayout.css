@@ -1,0 +1,27 @@
+/* AdminLayout.css */
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text */
+}
+
+.admin-layout {
+    height: 100vh; /* Full viewport height */
+}
+
+.admin-layout.light {
+    background-color: white;
+}
+
+.admin-layout.dark {
+    background-color: #181818; /* Darker background for the layout */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Bootstrap secondary color */
+    color: white;
+}

@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Viewport width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.main-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure cards have the same height */
+}
+
+.container-fluid {
+    padding: 0 !important; /* Remove default padding */
+    margin: 0 !important;
+}
+
+.row {
+    margin: 0 !important; /* Prevent margin affecting layout */
+}
+
+.layout-container {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden; /* Hide overflow */
+}
+
+
+.navbar-brand {
+    margin-left: 1rem; 
+}
+
+.navbar {
+    margin-right: 1rem; 
+}
+.dropdown-menu {
+    right: 0; /* Đẩy menu sang bên phải */
+    left: auto; /* Đảm bảo không sử dụng thuộc tính left */
+    transform: translateY(0); /* Đảm bảo không bị dịch chuyển */
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+}
+.modal-dialog {
+    position: relative;
+    margin: auto;
+    top: 20%;
+}
+.modal-content {
+    background-color: white;
+    border-radius: 0.3rem;
+}

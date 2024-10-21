@@ -1,0 +1,9 @@
+.dashboard-container {
+    display: flex; /* Sử dụng flexbox để sắp xếp */
+}
+
+.dashboard-content {
+    margin-left: 260px; /* Khoảng cách cho sidebar */
+    padding: 20px; /* Khoảng cách cho nội dung */
+    flex-grow: 1; /* Cho phép nội dung mở rộng */
+}

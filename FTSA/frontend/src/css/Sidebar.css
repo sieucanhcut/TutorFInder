@@ -1,0 +1,29 @@
+.sidebar {
+    width: 250px; /* Chiều rộng của sidebar */
+    background-color: #f4f4f4; /* Màu nền */
+    padding: 15px;
+    height: 100vh; /* Chiều cao đầy đủ */
+    position: fixed; /* Giữ sidebar ở vị trí cố định */
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none; /* Không có dấu đầu dòng */
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0; /* Khoảng cách giữa các mục */
+}
+
+.sidebar ul li a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: #333; /* Màu chữ */
+}
+
+.sidebar ul li a:hover {
+    color: #007bff; /* Màu chữ khi hover */
+}

@@ -7,12 +7,14 @@ namespace Repositories.Implements
 {
     public class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
-        private readonly TutorWebContext _context;
+        // Thay đổi mức độ truy cập của TutorWebContext từ private thành protected
+        protected readonly TutorWebContext _context;
 
         public RepositoryBase(TutorWebContext context)
         {
             _context = context;
         }
+
         public void Create(T entity)
         {
             _context.Set<T>().Add(entity);
@@ -25,14 +27,12 @@ namespace Repositories.Implements
 
         public IQueryable<T> FindAll(bool trackChanges)
         {
-            if (!trackChanges) return _context.Set<T>().AsNoTracking();
-            return _context.Set<T>();
+            return !trackChanges ? _context.Set<T>().AsNoTracking() : _context.Set<T>();
         }
 
         public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
         {
-            if (!trackChanges) return _context.Set<T>().Where(expression).AsNoTracking();
-            return _context.Set<T>().Where(expression);
+            return !trackChanges ? _context.Set<T>().Where(expression).AsNoTracking() : _context.Set<T>().Where(expression);
         }
 
         public void Update(T entity)

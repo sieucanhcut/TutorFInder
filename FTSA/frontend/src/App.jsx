@@ -1,35 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Layout } from './components/Layout';
+import { Home } from './pages/Home';
+import { Login } from './pages/Login';
+import { Register } from './pages/Register';
+import { EmailConfirmedModal } from './pages/EmailConfirmedModal';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ForgotPassword } from './pages/ForgotPassword';
+import { ResetPassword } from './pages/ResetPassword';
+import { Dashboard } from './admin/Dashboard';
+import { Account } from './admin/Account';
+import { News } from './admin/News';
+import AdminLayout from './admin/AdminLayout'; // Adjust the import based on your folder structure
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <Router>
+            <Layout>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/emailconfirmedmodal" element={<EmailConfirmedModal />} />
+                    <Route path="/register" element={<Register />} />
+                    <Route path="/forgot-password" element={<ForgotPassword />} />
+                    <Route path="/reset-password" element={<ResetPassword />} />
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+                    {/* Admin Routes */}
+                    <Route path="/admin" element={<AdminLayout />}>
+                        <Route path="dashboard" element={<Dashboard />} />
+                        <Route path="account" element={<Account />} />
+                        <Route path="news" element={<News />} />
+                    </Route>
+                </Routes>
+            </Layout>
+        </Router>
+    );
 }
 
-export default App
+export default App;

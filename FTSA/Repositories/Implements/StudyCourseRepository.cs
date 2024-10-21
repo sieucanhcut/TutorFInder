@@ -1,6 +1,4 @@
-﻿using DataAccess.dbContext_Access;
-using Entities;
-using Entities.Models;
+﻿using Entities;
 using Repositories.Interfaces;
 
 namespace Repositories.Implements

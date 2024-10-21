@@ -1,5 +1,4 @@
-﻿using DataObject;
-using Entities;
+﻿using Entities;
 using Repositories.Intefaces;
 using System;
 using System.Collections.Generic;
