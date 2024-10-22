@@ -37,9 +37,7 @@ namespace Entities
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //
-            /*User-Role*/
-            //
+
             modelBuilder.Entity<User>()
                 .HasOne(t => t.Role)
                 .WithMany(t => t.Users)

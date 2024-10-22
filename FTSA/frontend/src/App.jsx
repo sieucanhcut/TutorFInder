@@ -11,6 +11,9 @@ import { ResetPassword } from './pages/ResetPassword';
 import { Dashboard } from './admin/Dashboard';
 import { Account } from './admin/Account';
 import { News } from './admin/News';
+import { CVs } from './admin/CVs';
+import { PaymentManager } from './admin/PaymentManager';
+
 import AdminLayout from './admin/AdminLayout'; // Adjust the import based on your folder structure
 
 function App() {
@@ -30,6 +33,8 @@ function App() {
                         <Route path="dashboard" element={<Dashboard />} />
                         <Route path="account" element={<Account />} />
                         <Route path="news" element={<News />} />
+                        <Route path="cvs" element={<CVs />} />
+                        <Route path="paymentmanager" element={<PaymentManager />} />
                     </Route>
                 </Routes>
             </Layout>

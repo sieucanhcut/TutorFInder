@@ -24,7 +24,7 @@ builder.Services.AddScoped<ICustomEmailService, CustomEmailService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("http://localhost:5175") // Update with your React app's URL
+        builder => builder.WithOrigins("http://localhost:3000") // Update with your React app's URL
                           .AllowAnyMethod() // Allow all methods (GET, POST, PUT, DELETE, ...)
                           .AllowAnyHeader() // Allow all headers
                           .AllowCredentials()); // Allow cookies

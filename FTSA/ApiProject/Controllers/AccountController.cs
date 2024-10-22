@@ -121,7 +121,7 @@ namespace FTSA.Controllers
             if (ModelState.IsValid)
             {
                 var user = await _context.Users
-                    .Include(u => u.Role) 
+                    .Include(u => u.Role)
                     .FirstOrDefaultAsync(u => u.Email == model.Email);
 
                 // Check if user exists
@@ -130,7 +130,7 @@ namespace FTSA.Controllers
                     // Check if user is blocked
                     if (user.Role?.RoleName == "Blocked")
                     {
-                        return BadRequest(new { message = "Tài khoản của bạn đã bị khoá." }); 
+                        return BadRequest(new { message = "Tài khoản của bạn đã bị khoá." });
                     }
 
                     // Verify password
@@ -142,16 +142,21 @@ namespace FTSA.Controllers
                     new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
                     new Claim(ClaimTypes.Name, user.UserName),
                     new Claim(ClaimTypes.Email, user.Email),
-                    new Claim(ClaimTypes.Role, user.RoleId.ToString())
+                    new Claim(ClaimTypes.Role, user.Role?.RoleName ?? "User"), // Lưu vai trò vào claims, mặc định là "User" nếu không có
                 };
 
                         var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                         var authProperties = new AuthenticationProperties { };
+                        var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
+                        // Đăng nhập
                         await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                            new ClaimsPrincipal(claimsIdentity), authProperties);
+                            claimsPrincipal, authProperties);
 
-                        return Ok(new { message = "Login successful" });
+                        // Kiểm tra nếu người dùng là admin
+                        bool isAdmin = user.RoleId == Guid.Parse("398B2041-9948-4F0E-9297-078DAF2CBA06");
+
+                        return Ok(new { message = "Login successful", isAdmin });
                     }
                     else
                     {
@@ -165,6 +170,9 @@ namespace FTSA.Controllers
             }
             return BadRequest(ModelState);
         }
+
+
+
 
         [HttpPost("forgot-password")]
         public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequest request)

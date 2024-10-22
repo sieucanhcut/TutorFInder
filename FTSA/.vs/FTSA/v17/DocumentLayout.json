@@ -3,76 +3,12 @@
   "WorkspaceRootPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\apiproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\tutorwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\tutorwebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\apiproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\apiproject\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\models\\account\\blockuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\account\\blockuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\intefaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\implements\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implements\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\repositories\\intefaces\\itutordetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\itutordetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\entities\\models\\account\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\account\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\apiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\services\\implements\\customemailservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|solutionrelative:services\\implements\\customemailservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|d:\\count\\doan\\source\\doantotnghiep\\tutorfinder\\ftsa\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|solutionrelative:services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,229 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Event.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Event.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Event.cs",
-              "RelativeToolTip": "Entities\\Models\\Event.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA2wBcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:21:40.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Location.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Location.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Location.cs",
-              "RelativeToolTip": "Entities\\Models\\Location.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T02:17:37.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BlockUserRequest.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Account\\BlockUserRequest.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Account\\BlockUserRequest.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Account\\BlockUserRequest.cs",
-              "RelativeToolTip": "Entities\\Models\\Account\\BlockUserRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:38:08.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Role.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Role.cs",
-              "RelativeToolTip": "Entities\\Models\\Role.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA4wBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:19:09.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TutorWebContext.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\TutorWebContext.cs",
-              "RelativeDocumentMoniker": "Entities\\TutorWebContext.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\TutorWebContext.cs",
-              "RelativeToolTip": "Entities\\TutorWebContext.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAAABQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:19:03.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "ApiProject\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "ApiProject\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:06:08.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ITutorDetailsRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "RelativeToolTip": "Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:04:37.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Intefaces\\IUserRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Intefaces\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\Intefaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAIAwwBMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:04:32.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Implements\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implements\\UserRepository.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Implements\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\Implements\\UserRepository.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAYwDsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:04:18.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "ApiProject\\WeatherForecast.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\WeatherForecast.cs",
-              "RelativeToolTip": "ApiProject\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T08:45:28.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ApiProject\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ApiProject\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T08:38:18.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\appsettings.json",
-              "RelativeDocumentMoniker": "ApiProject\\appsettings.json",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\appsettings.json",
-              "RelativeToolTip": "ApiProject\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T08:38:14.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Program.cs",
-              "RelativeDocumentMoniker": "ApiProject\\Program.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Program.cs",
-              "RelativeToolTip": "ApiProject\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:39:02.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ResetPasswordRequest.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "RelativeToolTip": "Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:28:17.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\User.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Models\\User.cs",
-              "RelativeToolTip": "Entities\\Models\\User.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAiwDUAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:19:32.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomEmailService .cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Implements\\CustomEmailService .cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\CustomEmailService .cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Implements\\CustomEmailService .cs",
-              "RelativeToolTip": "Services\\Implements\\CustomEmailService .cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAwwBcAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:18:38.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Implements\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\UserService.cs",
-              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Implements\\UserService.cs",
-              "RelativeToolTip": "Services\\Implements\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:18:37.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ApiProject\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ApiProject\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAgwGEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:34:46.522Z",
+              "WhenOpened": "2024-10-21T13:36:08.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ApiProject\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\ApiProject\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ApiProject\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:36:07.709Z",
               "EditorCaption": ""
             }
           ]

@@ -22,7 +22,13 @@ export const Login = () => {
 
             if (response.status === 200) {
                 localStorage.setItem('auth_token', response.data.token);
-                navigate('/'); 
+                
+                // Kiểm tra nếu người dùng là admin
+                if (response.data.isAdmin) {
+                    navigate('/admin'); // Điều hướng đến trang admin
+                } else {
+                    navigate('/'); // Điều hướng đến trang chính hoặc trang khác
+                }
             }
         } catch (err) {
             setError(err.response?.data.message || 'An error occurred. Please try again.');

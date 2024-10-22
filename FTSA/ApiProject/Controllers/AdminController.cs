@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Interfaces;
@@ -10,6 +11,7 @@ namespace Admin.Controllers
 {
     [Route("api/admin")]
     [ApiController]
+
     public class AdminController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
