@@ -4857,19 +4857,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\BOSS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Services\\obj\\",
+      "projectPath": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\BOSS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BOSS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4884,11 +4889,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Entities\\Entities.csproj"
+            "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Entities.csproj"
             },
-            "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\count\\Doan\\Source\\DoAnTotNghiep\\TutorFInder\\FTSA\\Repositories\\Repositories.csproj"
+            "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -4957,7 +4962,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
