@@ -33,11 +33,11 @@ namespace Entities
         [Required(ErrorMessage = "This field is required")]
         [Column(TypeName = "nvarchar(200)")]
         public string? AcademicSpecialty {  get; set; } //diem noi bat
-        [Required(ErrorMessage = "This field is required")]
-        [Column(TypeName = "nvarchar(50)")]
+        [Required(ErrorMessage = "Photo is required")]
+        [Column(TypeName = "nvarchar(255)")]
         public string? Photo {  get; set; }  // anh
-        [Required(ErrorMessage = "This field is required")]
-        [Column(TypeName = "nvarchar(50)")]
+        [Required(ErrorMessage = "At least 1 attachment required")]
+        [Column(TypeName = "nvarchar(255)")]
         public string? IncludingPhotos {  get; set; } // cac anh dinh kem
         public User? User { get; set; }
         public ICollection<TutionFeeSchedule>? _tutionFeeSchedules { get; set; }
