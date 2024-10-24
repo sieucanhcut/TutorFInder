@@ -19,6 +19,11 @@ namespace Entities
         [Column(TypeName = "nvarchar(50)")]
         [Required(ErrorMessage = "This field is required")]
         public string? Description { get; set; }
+
+        [Column(TypeName = "nvarchar(50)")]
+        [Required(ErrorMessage = "This field is required")]
+        public string? EventsImage { get; set; }
+
         public Guid? AdminId { get; set; }
         public User? Admin { get; set; }
     }

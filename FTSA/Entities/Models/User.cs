@@ -15,7 +15,7 @@ namespace Entities
         [Required(ErrorMessage = "This field is required")]
         public string? UserName { get; set; }
 
-        [Column(TypeName = "nvarchar(50)")]
+        [Column(TypeName = "nvarchar(max)")]
         [Required(ErrorMessage = "This field is required")]
         public string? Password { get; set; }
 

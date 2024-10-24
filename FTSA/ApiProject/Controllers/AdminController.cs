@@ -53,7 +53,7 @@ namespace Admin.Controllers
                 return NotFound();
             }
 
-            user.RoleId = Guid.Parse("6425aec4-e6e1-4287-95f2-5ee8862429d4");
+            user.RoleId = Guid.Parse("FC0E323F-C365-4DA7-A359-BCC90139E0CB");
             await _userRepository.UpdateUserAsync(user);
 
             return NoContent();

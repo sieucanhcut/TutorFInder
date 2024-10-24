@@ -18,8 +18,10 @@ namespace Entities
         public DbSet<StudentDetails> Students { get; set; }
         public DbSet<TutionFeeSchedule> TutionFeeSchedules { get; set; }
         public DbSet<TutorDetails> Tutors { get; set; }
+
         public DbSet<User> Users { get; set; }
         public DbSet<Location> Locations { get; set; }
+        public DbSet<TutorAdvertisement> TutorAdvertisements { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -176,7 +178,8 @@ namespace Entities
                 .HasData(
                 new { RoleId = Guid.NewGuid(), RoleName = "Admin", Status = "None" },
                 new { RoleId = Guid.NewGuid(), RoleName = "Student", Status = "None" },
-                new { RoleId = Guid.NewGuid(), RoleName = "Tutor", Status = "None" }
+                new { RoleId = Guid.NewGuid(), RoleName = "Tutor", Status = "None" },
+                new { RoleId = Guid.NewGuid(), RoleName = "Blocked", Status = "None" }
                 );
             //Location-Seeder
             modelBuilder.Entity<Location>()

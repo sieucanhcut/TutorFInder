@@ -112,7 +112,7 @@ namespace FTSA.Controllers
             await _context.SaveChangesAsync();
 
             // Redirect về trang đăng ký với thông báo thành công
-            return Redirect($"http://localhost:3000/register?success=true");
+            return Redirect($"http://localhost:8080/register?success=true");
         }
 
         [HttpPost("login")]
@@ -154,7 +154,7 @@ namespace FTSA.Controllers
                             claimsPrincipal, authProperties);
 
                         // Kiểm tra nếu người dùng là admin
-                        bool isAdmin = user.RoleId == Guid.Parse("398B2041-9948-4F0E-9297-078DAF2CBA06");
+                        bool isAdmin = user.RoleId == Guid.Parse("3E92DDED-A10B-453A-9722-A3CA49600A07");
 
                         return Ok(new { message = "Login successful", isAdmin });
                     }
@@ -170,7 +170,12 @@ namespace FTSA.Controllers
             }
             return BadRequest(ModelState);
         }
-
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return Ok(new { message = "Logout successful." });
+        }
 
 
 
@@ -197,7 +202,7 @@ namespace FTSA.Controllers
             await _context.SaveChangesAsync();
 
             // Tạo link reset password
-            var resetLink = $"http://localhost:3000/reset-password?token={token}&email={user.Email}";
+            var resetLink = $"http://localhost:8080/reset-password?token={token}&email={user.Email}";
 
             // Soạn nội dung email
             string subject = "Yêu cầu thay đổi mật khẩu";

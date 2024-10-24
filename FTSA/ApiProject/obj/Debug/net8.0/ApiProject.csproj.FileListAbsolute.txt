@@ -161,3 +161,5 @@ D:\count\Doan\Source\DoAnTotNghiep\TutorFInder\FTSA\ApiProject\obj\Debug\net8.0\
 D:\count\Doan\Source\DoAnTotNghiep\TutorFInder\FTSA\ApiProject\obj\Debug\net8.0\ApiProject.genruntimeconfig.cache
 D:\count\Doan\Source\DoAnTotNghiep\TutorFInder\FTSA\ApiProject\obj\Debug\net8.0\ref\ApiProject.dll
 D:\count\Doan\Source\DoAnTotNghiep\TutorFInder\FTSA\ApiProject\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\count\Doan\Source\DoAnTotNghiep\TutorFInder\FTSA\ApiProject\bin\Debug\net8.0\AutoMapper.dll
+D:\count\Doan\Source\DoAnTotNghiep\TutorFInder\FTSA\ApiProject\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
