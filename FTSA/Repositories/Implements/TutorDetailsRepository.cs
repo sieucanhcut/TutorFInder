@@ -183,7 +183,7 @@ namespace Repositories.Implements
             throw new NotImplementedException();
         }
 
-        public async Task<RequestTutorDetails?> FindByIdAsync(Guid id)
+        async Task<RequestTutorDetails?> ITutorDetailsRepository.FindByIdAsync(Guid id)
         {
             return await _webContext.Tutors
                 .Include(t => t.User)

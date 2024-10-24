@@ -20,6 +20,7 @@ namespace Entities
         public DbSet<TutorDetails> Tutors { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Location> Locations { get; set; }
+        public DbSet<TutorAdvertisement> TutorAdvertisements { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

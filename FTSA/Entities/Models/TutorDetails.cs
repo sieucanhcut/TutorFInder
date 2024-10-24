@@ -18,17 +18,17 @@ namespace Entities
         [Column(TypeName = "nvarchar(50)")]
         public string? Title { get; set; } // Undergraduated Student, Graduated Student, Teacher
         [Required(ErrorMessage = "This field is required")]
-        [Column(TypeName = "nvarchar(50)")]
+        [Column(TypeName = "nvarchar(255)")]
         public string? Faculty {get; set; } // khoa
         [Required(ErrorMessage = "This field is required")]
-        [Column(TypeName = "nvarchar(50)")]
+        [Column(TypeName = "nvarchar(255)")]
         public string? Transportation {  get; set; }
         public bool? OnlineTutor { get; set; }
         [Required(ErrorMessage = "This field is required")]
-        [Column(TypeName = "nvarchar(500)")]
+        [Column(TypeName = "nvarchar(900)")]
         public string? SelfIntroduction {  get; set; } // tu gioi thieu
         [Required(ErrorMessage = "This field is required")]
-        [Column(TypeName = "nvarchar(500)")]
+        [Column(TypeName = "nvarchar(900)")]
         public string? TeachingAchievement { get; set; } // thanh tich day hoc
         [Required(ErrorMessage = "This field is required")]
         [Column(TypeName = "nvarchar(200)")]
@@ -37,13 +37,13 @@ namespace Entities
         [Column(TypeName = "nvarchar(255)")]
         public string? Photo {  get; set; }  // anh
         [Required(ErrorMessage = "At least 1 attachment required")]
-        [Column(TypeName = "nvarchar(255)")]
+        [Column(TypeName = "nvarchar(900)")]
         public string? IncludingPhotos {  get; set; } // cac anh dinh kem
         public User? User { get; set; }
-        public ICollection<TutionFeeSchedule>? _tutionFeeSchedules { get; set; }
-        public ICollection<Contract>? Contacts {  get; set; }
-        public ICollection<FreeCourse>? _FreeCourse { get; set; }
+        public HashSet<TutionFeeSchedule>? _tutionFeeSchedules { get; set; }
+        public HashSet<Contract>? Contacts {  get; set; }
+        public HashSet<FreeCourse>? _FreeCourse { get; set; }
         public ICollection<Feedback>? _FeedbacksAbout { get; set; }
-        public ICollection<TutorAdvertisement>? _TutorAdvertisements { get; set; }
+        public HashSet<TutorAdvertisement>? _TutorAdvertisements { get; set; }
     }
 }

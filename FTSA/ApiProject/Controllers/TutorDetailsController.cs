@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services.Implements;
 using System.Linq.Expressions;
+using System.Security.Claims;
 
 namespace ApiProject.Controllers
 {
@@ -44,16 +45,21 @@ namespace ApiProject.Controllers
         [HttpPost]
         public async Task<ActionResult> CreateTutor([FromBody] TutorDetails request)
         {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            request.TutorId = Guid.NewGuid();           
+            if (userIdClaim != null) {
+                Guid userId = Guid.Parse(userIdClaim?.Value);
+                request.UserId = userId; }
             await _tutorDetailsService.CreateAsync(request);
-            return CreatedAtAction(nameof(GetTutorById), new { id = request.UserId }, request);
+            return CreatedAtAction(nameof(GetTutorById), new { id = request.TutorId }, request);
         }
 
         // PUT: api/tutordetails/{id}
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateTutor(Guid id, [FromBody] RequestTutorDetails request)
         {
-            var result = await _tutorDetailsService.UpdateAsync(request, id);
 
+            var result = await _tutorDetailsService.UpdateAsync(request, id);
             if (result == null)
             {
                 return NotFound();
@@ -81,7 +87,7 @@ namespace ApiProject.Controllers
         public async Task<ActionResult<List<RequestTutorDetails>>> SearchTutors([FromQuery] string keyword, bool trackChanges)
         {
             Expression<Func<RequestTutorDetails, bool>> expression = tutor =>
-            tutor.Gender.Contains(keyword)||
+            tutor.Gender.Contains(keyword) ||
             tutor.UserName.Contains(keyword)||
             tutor.City.Contains(keyword)||
             tutor.District.Contains(keyword)||
