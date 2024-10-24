@@ -43,7 +43,7 @@ namespace ApiProject.Controllers
 
         // POST: api/tutordetails
         [HttpPost]
-        public async Task<ActionResult> CreateTutor([FromBody] TutorDetails request)
+        public async Task<ActionResult> CreateTutor([FromBody] RequestTutorDetails request)
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
             request.TutorId = Guid.NewGuid();           

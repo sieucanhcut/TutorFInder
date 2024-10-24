@@ -13,7 +13,7 @@ namespace Services.Interfaces
     {
         public Task<IEnumerable<RequestTutorDetails>?> FindAllAsync(bool trackchanges);
         public Task<RequestTutorDetails?> FindByIdAsync(Guid id);
-        public Task CreateAsync(TutorDetails request);
+        public Task CreateAsync(RequestTutorDetails request);
         public Task<bool?> UpdateAsync(RequestTutorDetails request, Guid id);
         public Task<bool?> DeleteAsync(Guid id);
         public Task<List<RequestTutorDetails>?> SearchTutorsAsync(Expression<Func<RequestTutorDetails, bool>> expression, bool trackChanges);

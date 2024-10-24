@@ -21,7 +21,7 @@ namespace Repositories.Implements
             throw new NotImplementedException();
         }
 
-        public async Task<bool?> DeleteAsync(Guid id)
+        async Task<bool?> ITutorDetailsRepository.DeleteAsync(Guid id)
         {
             var tutordetails = await _webContext.Tutors.FirstOrDefaultAsync(t => t.TutorId == id);
 
@@ -39,45 +39,28 @@ namespace Repositories.Implements
             throw new NotImplementedException();
         }
 
-        public async Task<IQueryable<RequestTutorDetails>> FindByConditionAsync(Expression<Func<RequestTutorDetails, bool>> expression, bool trackChanges)
+        public async Task<IQueryable<TutorDetails>> FindByConditionAsync(Expression<Func<TutorDetails, bool>> expression, bool trackChanges)
         {
-            var query = _webContext.Tutors
-                .Include(t => t.User).
-                ThenInclude(u => u.Location)
-        .Select(t => new RequestTutorDetails
-        {
-            UserId = t.UserId,
-            AcademicSpecialty = t.AcademicSpecialty,
-            City = t.User.Location.CityOrProvince,
-            District = t.User.Location.District,
-            DateOfBirth = t.User.DateOfBirth,
-            Faculty = t.Faculty,
-            Gender = t.User.Gender,
-            Photo = t.Photo,
-            IncludingPhotos = t.IncludingPhotos,
-            OnlineTutor = t.OnlineTutor,
-            PlaceOfWork = t.User.PlaceOfWork,
-            SelfIntroduction = t.SelfIntroduction,
-            TeachingAchievement = t.TeachingAchievement,
-            Title = t.Title,
-            Transportation = t.Transportation,
-            UserName = t.User.UserName
-        });
-
-            if (!trackChanges)
+            if (trackChanges)
             {
-                query = query.AsNoTracking();
+                return await Task.FromResult(_webContext.Tutors
+                    .Include(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .Where(expression)
+                    .AsQueryable());
             }
-            var filteredQuery = query.Where(expression);
-
-            return await Task.FromResult(filteredQuery);
+            else
+            {
+                return await Task.FromResult(_webContext.Tutors
+                    .Include(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .Where(expression)
+                    .AsNoTracking()
+                    .AsQueryable());
+            }
         }
-        public void Update(RequestTutorDetails entity)
-        {
-            throw new NotImplementedException();
-        }
 
-        public async Task<bool?> UpdateAsync(RequestTutorDetails entity, Guid id)
+        public async Task<bool?> UpdateAsync(TutorDetails entity, Guid id)
         {
             var tutorDetailsUpdate = await _webContext.Tutors.FindAsync(id);
 
@@ -85,7 +68,6 @@ namespace Repositories.Implements
             {
                 return false;
             }
-
             tutorDetailsUpdate.AcademicSpecialty = entity.AcademicSpecialty;
             tutorDetailsUpdate.Faculty = entity.Faculty;
             tutorDetailsUpdate.OnlineTutor = entity.OnlineTutor;
@@ -133,74 +115,51 @@ namespace Repositories.Implements
 
         }
 
-        async Task<IQueryable<RequestTutorDetails>> ITutorDetailsRepository.FindAllAsync(bool trackChanges)
+        async Task<IQueryable<TutorDetails>> ITutorDetailsRepository.FindAllAsync(bool trackChanges)
         {
-            return await Task.FromResult(
-        trackChanges
-            ? _webContext.Tutors
-                .Include(t => t.User)
-                .Select(tutor => new RequestTutorDetails
-                {
-                    UserId = tutor.User.UserId,
-                    AcademicSpecialty = tutor.AcademicSpecialty,
-                    Faculty = tutor.Faculty,
-                    OnlineTutor = tutor.OnlineTutor,
-                    SelfIntroduction = tutor.SelfIntroduction,
-                    TeachingAchievement = tutor.TeachingAchievement,
-                    Title = tutor.Title,
-                    TutorId = tutor.TutorId,
-                    Transportation = tutor.Transportation,
-                    Photo = tutor.Photo,
-                    IncludingPhotos = tutor.IncludingPhotos
-                })
-            : _webContext.Tutors
-                .Include(t => t.User)
-                .AsNoTracking()
-                .Select(tutor => new RequestTutorDetails
-                {
-                    UserId = tutor.User.UserId,
-                    AcademicSpecialty = tutor.AcademicSpecialty,
-                    Faculty = tutor.Faculty,
-                    OnlineTutor = tutor.OnlineTutor,
-                    SelfIntroduction = tutor.SelfIntroduction,
-                    TeachingAchievement = tutor.TeachingAchievement,
-                    Title = tutor.Title,
-                    TutorId = tutor.TutorId,
-                    Transportation = tutor.Transportation,
-                    Photo = tutor.Photo,
-                    IncludingPhotos = tutor.IncludingPhotos
-                })
-    );
+            if (trackChanges)
+            {
+                return await Task.FromResult(_webContext.Tutors
+                    .Include(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .AsQueryable());
+            }
+            else
+            {
+                return await Task.FromResult(_webContext.Tutors
+                    .Include(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .AsNoTracking()
+                    .AsQueryable());
+            }
         }
 
-        IQueryable<RequestTutorDetails> IRepositoryBase<RequestTutorDetails>.FindAll(bool trackChanges)
+        IQueryable<TutorDetails> IRepositoryBase<TutorDetails>.FindAll(bool trackChanges)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<RequestTutorDetails> FindByCondition(Expression<Func<RequestTutorDetails, bool>> expression, bool trackChanges)
+        public IQueryable<TutorDetails> FindByCondition(Expression<Func<TutorDetails, bool>> expression, bool trackChanges)
         {
             throw new NotImplementedException();
         }
 
-        async Task<RequestTutorDetails?> ITutorDetailsRepository.FindByIdAsync(Guid id)
+        async Task<TutorDetails?> ITutorDetailsRepository.FindByIdAsync(Guid id)
         {
             return await _webContext.Tutors
                 .Include(t => t.User)
-                .Select(tutor => new RequestTutorDetails
-                {
-                    UserId = tutor.User.UserId,
-                    AcademicSpecialty = tutor.AcademicSpecialty,
-                    Faculty = tutor.Faculty,
-                    OnlineTutor = tutor.OnlineTutor,
-                    SelfIntroduction = tutor.SelfIntroduction,
-                    TeachingAchievement = tutor.TeachingAchievement,
-                    Title = tutor.Title,
-                    TutorId = tutor.TutorId,
-                    Transportation = tutor.Transportation,
-                    Photo = tutor.Photo,
-                    IncludingPhotos = tutor.IncludingPhotos
-                }).Where(t => t.TutorId == id).FirstOrDefaultAsync();
+                .ThenInclude(u => u.Location)
+                .Where(t => t.TutorId == id).FirstOrDefaultAsync();
+        }
+
+        public Task<IQueryable<TutorDetails>> FindAllAsync(bool trackChanges)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TutorDetails?> FindByIdAsync(Guid id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

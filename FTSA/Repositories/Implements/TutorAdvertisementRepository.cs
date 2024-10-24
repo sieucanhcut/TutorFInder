@@ -15,7 +15,7 @@ namespace Repositories.Implements
             _webContext = dataContext;
         }
 
-        public async Task CreateAsync(RequestTutorAdvertisement entity)
+        public async Task CreateAsync(TutorAdvertisement entity)
         {
             using var transaction = await _webContext.Database.BeginTransactionAsync();
             try
@@ -53,103 +53,60 @@ namespace Repositories.Implements
             return await _webContext.SaveChangesAsync() > 0;
         }
 
-        public async Task<IQueryable<RequestTutorAdvertisement>> FindAllAsync(bool trackChanges)
+        public async Task<IQueryable<TutorAdvertisement>> FindAllAsync(bool trackChanges)
         {
-            return await Task.FromResult(
-                trackChanges
-                ? _webContext.TutorAdvertisements
-                .Include(ad => ad.Tutor)
-                .ThenInclude(t => t.User)
-                .ThenInclude(u => u.Location)
-                .Select(advertisement => new RequestTutorAdvertisement
-                {
-                    AdvertisementId = advertisement.AdvertisementId,
-                    City = advertisement.Tutor.User.Location.CityOrProvince,
-                    Description = advertisement.Description,
-                    District = advertisement.Tutor.User.Location.District,
-                    UserName = advertisement.Tutor.User.UserName,
-                    Faculty = advertisement.Tutor.Faculty,
-                    Media = advertisement.Media,
-                    OnlineTutor = advertisement.Tutor.OnlineTutor,
-                    Photo = advertisement.Tutor.Photo,
-                    Title = advertisement.Tutor.Title,
-                    TutorId = advertisement.TutorId
-                })
-            : _webContext.TutorAdvertisements
-                .Include(ad => ad.Tutor)
-                .ThenInclude(t => t.User)
-                .ThenInclude(u => u.Location)
-                .AsNoTracking()
-                .Select(advertisement => new RequestTutorAdvertisement
-                {
-                    AdvertisementId = advertisement.AdvertisementId,
-                    City = advertisement.Tutor.User.Location.CityOrProvince,
-                    Description = advertisement.Description,
-                    District = advertisement.Tutor.User.Location.District,
-                    UserName = advertisement.Tutor.User.UserName,
-                    Faculty = advertisement.Tutor.Faculty,
-                    Media = advertisement.Media,
-                    OnlineTutor = advertisement.Tutor.OnlineTutor,
-                    Photo = advertisement.Tutor.Photo,
-                    Title = advertisement.Tutor.Title,
-                    TutorId = advertisement.TutorId
-                })
-    );
-        }
-
-        public async Task<IQueryable<RequestTutorAdvertisement>> FindByConditionAsync(Expression<Func<RequestTutorAdvertisement, bool>> expression, bool trackChanges)
-        {
-            var query = _webContext.TutorAdvertisements
-                .Include(ad => ad.Tutor)
-                .ThenInclude(t => t.User)
-                .ThenInclude(u => u.Location)
-                .Select(advertisement => new RequestTutorAdvertisement 
-                { 
-                    AdvertisementId = advertisement.AdvertisementId,
-                    City = advertisement.Tutor.User.Location.CityOrProvince,
-                    Description = advertisement.Description,
-                    District = advertisement.Tutor.User.Location.District,
-                    UserName = advertisement.Tutor.User.UserName,
-                    Faculty = advertisement.Tutor.Faculty,
-                    Media = advertisement.Media,
-                    OnlineTutor = advertisement.Tutor.OnlineTutor,
-                    Photo = advertisement.Tutor.Photo,
-                    Title = advertisement.Tutor.Title,
-                    TutorId = advertisement.TutorId
-                });
-
-            if (!trackChanges)
+            if (trackChanges)
             {
-                query = query.AsNoTracking();
+                return await Task.FromResult(_webContext.TutorAdvertisements
+                    .Include(t => t.Tutor)
+                    .ThenInclude(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .AsQueryable());
             }
-            var filteredQuery = query.Where(expression);
-
-            return await Task.FromResult(filteredQuery);
+            else
+            {
+                return await Task.FromResult(_webContext.TutorAdvertisements
+                    .Include(t => t.Tutor)
+                    .ThenInclude(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .AsNoTracking()
+                    .AsQueryable());
+            }
         }
 
-        public async Task<RequestTutorAdvertisement?> FindByIdAsync(Guid id)
+        public async Task<IQueryable<TutorAdvertisement>> FindByConditionAsync(Expression<Func<TutorAdvertisement, bool>> expression, bool trackChanges)
+        {
+            if (trackChanges)
+            {
+                return await Task.FromResult(_webContext.TutorAdvertisements
+                    .Include(t => t.Tutor)
+                    .ThenInclude(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .Where(expression)
+                    .AsQueryable());
+            }
+            else
+            {
+                return await Task.FromResult(_webContext.TutorAdvertisements
+                    .Include(t => t.Tutor)
+                    .ThenInclude(t => t.User)
+                    .ThenInclude(u => u.Location)
+                    .Where(expression)
+                    .AsNoTracking()
+                    .AsQueryable());
+            }
+        }
+
+        public async Task<TutorAdvertisement?> FindByIdAsync(Guid id)
         {
             return await _webContext.TutorAdvertisements
                 .Include(ad => ad.Tutor)
                 .ThenInclude(t => t.User)
                 .ThenInclude(u => u.Location)
-                .Select(advertisement => new RequestTutorAdvertisement
-                {
-                    AdvertisementId = advertisement.AdvertisementId,
-                    City = advertisement.Tutor.User.Location.CityOrProvince,
-                    Description = advertisement.Description,
-                    District = advertisement.Tutor.User.Location.District,
-                    UserName = advertisement.Tutor.User.UserName,
-                    Faculty = advertisement.Tutor.Faculty,
-                    Media = advertisement.Media,
-                    OnlineTutor = advertisement.Tutor.OnlineTutor,
-                    Photo = advertisement.Tutor.Photo,
-                    Title = advertisement.Tutor.Title,
-                    TutorId = advertisement.TutorId
-                }).Where(t => t.AdvertisementId == id).FirstOrDefaultAsync();
+                .Where(t => t.AdvertisementId == id).FirstOrDefaultAsync();
         }
 
-        public async Task<bool?> UpdateAsync(RequestTutorAdvertisement entity, Guid id)
+        public async Task<bool?> UpdateAsync(TutorAdvertisement entity, Guid id)
         {
             var advertisementToUpdate = await _webContext.TutorAdvertisements.FindAsync(id);
 

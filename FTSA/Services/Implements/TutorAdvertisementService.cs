@@ -1,4 +1,6 @@
-﻿using Entities.Dto;
+﻿using AutoMapper;
+using Entities;
+using Entities.Dto;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Implements;
 using Repositories.Interfaces;
@@ -14,40 +16,90 @@ namespace Services.Implements
 {
     public class TutorAdvertisementService : ITutorAdvertisementService
     {
-        private readonly ITutorAdvertisementRepository _repository;
-        public TutorAdvertisementService(ITutorAdvertisementRepository repository) 
+        private readonly ITutorAdvertisementRepository _repos;
+        private readonly IMapper _mapper;
+        public TutorAdvertisementService(ITutorAdvertisementRepository repos, IMapper mapper)
         {
-            _repository = repository;
-        }
-        public async Task CreateAsync(RequestTutorAdvertisement request)
+            _mapper = mapper;
+            _repos = repos;
+        }  
+        private RequestTutorAdvertisement MapToDto(TutorAdvertisement tutorAdvertisement)
         {
-            await _repository.CreateAsync(request);
+            return new RequestTutorAdvertisement
+            {
+               City = tutorAdvertisement.Tutor?.User?.Location?.CityOrProvince,
+               District = tutorAdvertisement.Tutor?.User?.Location?.District,
+               Faculty = tutorAdvertisement.Tutor?.Faculty,
+               AdvertisementId = tutorAdvertisement.AdvertisementId,
+               Description = tutorAdvertisement.Description,
+               Media = tutorAdvertisement.Media,
+               OnlineTutor = tutorAdvertisement.Tutor?.OnlineTutor,
+               Photo = tutorAdvertisement.Tutor?.Photo,
+               Title = tutorAdvertisement.Tutor?.Title,
+               TutorId = tutorAdvertisement.TutorId,
+               UserName = tutorAdvertisement.Tutor?.User?.UserName,
+            };
         }
 
-        public async Task<bool?> DeleteAsync(Guid id)
+        private TutorAdvertisement UpdateEntityFromDto(TutorAdvertisement entity, RequestTutorAdvertisement dto)
         {
-            return await _repository.DeleteAsync(id);
+            entity.AdvertisementId = dto.AdvertisementId;
+            entity.TutorId = dto.TutorId;
+            entity.Description = dto.Description;
+            entity.Media = dto.Media;
+            return entity;
+        }
+
+        private Expression<Func<TutorAdvertisement, bool>> MapExpressionToEntity(Expression<Func<RequestTutorAdvertisement, bool>> expression)
+        {
+            var mappedExpression = _mapper.Map<Expression<Func<TutorAdvertisement, bool>>>(expression);
+            return mappedExpression;
         }
 
         public async Task<IEnumerable<RequestTutorAdvertisement>?> FindAllAsync(bool trackchanges)
         {
-            return await _repository.FindAllAsync(trackchanges);
+            var advertisements = await _repos.FindAllAsync(trackchanges);
+            return advertisements?.Select(t => MapToDto(t)).ToList();
         }
 
         public async Task<RequestTutorAdvertisement?> FindByIdAsync(Guid id)
         {
-            return await _repository.FindByIdAsync(id);
+            var advertisement = await _repos.FindByIdAsync(id);
+            return advertisement != null ? MapToDto(advertisement) : null;
         }
 
-        public async Task<List<RequestTutorAdvertisement>?> SearchTutorsAsync(Expression<Func<RequestTutorAdvertisement, bool>> expression, bool trackChanges)
+        public async Task CreateAsync(RequestTutorAdvertisement request)
         {
-            var queryableTutors = await _repository.FindByConditionAsync(expression, trackChanges);
-            return await queryableTutors.ToListAsync();
+            var tutorAdvetisement = new TutorAdvertisement
+            {
+                AdvertisementId = request.AdvertisementId,
+                Description = request.Description,
+                Media = request.Media,
+                TutorId = request.TutorId,
+                UpdateDate = DateTime.UtcNow,
+            };
+            await _repos.CreateAsync(tutorAdvetisement);
         }
 
         public async Task<bool?> UpdateAsync(RequestTutorAdvertisement request, Guid id)
         {
-            return await _repository.UpdateAsync(request, id);
+            var adEntity = await _repos.FindByIdAsync(id);
+            if (adEntity == null) return false;
+
+            adEntity = UpdateEntityFromDto(adEntity, request);
+            return await _repos.UpdateAsync(adEntity, id);
+        }
+
+        public async Task<bool?> DeleteAsync(Guid id)
+        {
+            return await _repos.DeleteAsync(id);
+        }
+
+        public async Task<List<RequestTutorAdvertisement>?> SearchTutorsAsync(Expression<Func<RequestTutorAdvertisement, bool>> expression, bool trackChanges)
+        {
+            var advertisements = await _repos.FindByConditionAsync(MapExpressionToEntity(expression), trackChanges);
+            return advertisements?.Select(t => MapToDto(t)).ToList();
         }
     }
 }
+
