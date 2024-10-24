@@ -59,7 +59,20 @@ namespace Services.Implements
         public async Task<IEnumerable<RequestTutorAdvertisement>?> FindAllAsync(bool trackchanges)
         {
             var advertisements = await _repos.FindAllAsync(trackchanges);
-            return advertisements?.Select(t => MapToDto(t)).ToList();
+            return advertisements?.AsEnumerable().Select(t => new RequestTutorAdvertisement
+            {
+                City = t.Tutor?.User?.Location?.CityOrProvince,
+                District = t.Tutor?.User?.Location?.District,
+                Faculty = t.Tutor?.Faculty,
+                AdvertisementId = t.AdvertisementId,
+                Description = t.Description,
+                Media = t.Media,
+                OnlineTutor = t.Tutor?.OnlineTutor,
+                Photo = t.Tutor?.Photo,
+                Title = t.Tutor?.Title,
+                TutorId = t.TutorId,
+                UserName = t.Tutor?.User?.UserName,
+            }).ToList();
         }
 
         public async Task<RequestTutorAdvertisement?> FindByIdAsync(Guid id)
@@ -98,7 +111,20 @@ namespace Services.Implements
         public async Task<List<RequestTutorAdvertisement>?> SearchTutorsAsync(Expression<Func<RequestTutorAdvertisement, bool>> expression, bool trackChanges)
         {
             var advertisements = await _repos.FindByConditionAsync(MapExpressionToEntity(expression), trackChanges);
-            return advertisements?.Select(t => MapToDto(t)).ToList();
+            return advertisements?.AsEnumerable().Select(t => new RequestTutorAdvertisement
+            {
+                City = t.Tutor?.User?.Location?.CityOrProvince,
+                District = t.Tutor?.User?.Location?.District,
+                Faculty = t.Tutor?.Faculty,
+                AdvertisementId = t.AdvertisementId,
+                Description = t.Description,
+                Media = t.Media,
+                OnlineTutor = t.Tutor?.OnlineTutor,
+                Photo = t.Tutor?.Photo,
+                Title = t.Tutor?.Title,
+                TutorId = t.TutorId,
+                UserName = t.Tutor?.User?.UserName
+            }).ToList();
         }
     }
 }

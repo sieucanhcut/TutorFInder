@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\services\\implements\\tutordetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|solutionrelative:services\\implements\\tutordetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\apiproject\\controllers\\tutoradvertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\tutoradvertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\repositories\\implements\\tutordetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implements\\tutordetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\services\\implements\\tutoradvertisementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|solutionrelative:services\\implements\\tutoradvertisementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\repositories\\intefaces\\itutordetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D78A9E99-BA89-493B-A80E-8FDAB68C0E90}|Repositories\\Repositories.csproj|solutionrelative:repositories\\intefaces\\itutordetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\apiproject\\controllers\\tutoradvertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\tutoradvertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\apiproject\\controllers\\tutordetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F11C4E1-B426-4106-91D9-BF2E24C5B60B}|ApiProject\\ApiProject.csproj|solutionrelative:apiproject\\controllers\\tutordetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\entities\\models\\account\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\account\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\entities\\models\\account\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\account\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\entities\\models\\account\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57107289-AC0B-4608-AB6B-045ADA522483}|Entities\\Entities.csproj|solutionrelative:entities\\models\\account\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|c:\\users\\boss\\desktop\\mock2\\tutorfinder\\ftsa\\services\\implements\\tutordetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181F63AF-E3D7-453E-9879-279C11342D02}|Services\\Services.csproj|solutionrelative:services\\implements\\tutordetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,47 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 20,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TutorDetailsService.cs",
-              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\Implements\\TutorDetailsService.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\TutorDetailsService.cs",
-              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\Implements\\TutorDetailsService.cs",
-              "RelativeToolTip": "Services\\Implements\\TutorDetailsService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T10:03:48.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TutorDetailsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Repositories\\Implements\\TutorDetailsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implements\\TutorDetailsRepository.cs",
-              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Repositories\\Implements\\TutorDetailsRepository.cs",
-              "RelativeToolTip": "Repositories\\Implements\\TutorDetailsRepository.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAswJcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:31:27.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITutorDetailsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "RelativeToolTip": "Repositories\\Intefaces\\ITutorDetailsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:30:48.122Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -169,28 +110,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TutorAdvertisementController.cs",
               "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\ApiProject\\Controllers\\TutorAdvertisementController.cs",
               "RelativeDocumentMoniker": "ApiProject\\Controllers\\TutorAdvertisementController.cs",
               "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\ApiProject\\Controllers\\TutorAdvertisementController.cs",
               "RelativeToolTip": "ApiProject\\Controllers\\TutorAdvertisementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwFkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:40:57.816Z",
+              "WhenOpened": "2024-10-24T15:04:32.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TutorDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\ApiProject\\Controllers\\TutorDetailsController.cs",
-              "RelativeDocumentMoniker": "ApiProject\\Controllers\\TutorDetailsController.cs",
-              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\ApiProject\\Controllers\\TutorDetailsController.cs",
-              "RelativeToolTip": "ApiProject\\Controllers\\TutorDetailsController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAswFQAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TutorDetailsService.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\Implements\\TutorDetailsService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\TutorDetailsService.cs",
+              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\Implements\\TutorDetailsService.cs",
+              "RelativeToolTip": "Services\\Implements\\TutorDetailsService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:38:40.528Z"
+              "WhenOpened": "2024-10-24T14:49:26.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -200,46 +142,23 @@
               "RelativeDocumentMoniker": "Services\\Implements\\TutorAdvertisementService.cs",
               "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Services\\Implements\\TutorAdvertisementService.cs",
               "RelativeToolTip": "Services\\Implements\\TutorAdvertisementService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwDMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:34:18.429Z",
+              "WhenOpened": "2024-10-24T14:33:06.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResetPasswordRequest.cs",
-              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "RelativeToolTip": "Entities\\Models\\Account\\ResetPasswordRequest.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\ApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "ApiProject\\Program.cs",
+              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\ApiProject\\Program.cs",
+              "RelativeToolTip": "ApiProject\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:29:48.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignUpModel.cs",
-              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Models\\Account\\SignUpModel.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Account\\SignUpModel.cs",
-              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Models\\Account\\SignUpModel.cs",
-              "RelativeToolTip": "Entities\\Models\\Account\\SignUpModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:29:43.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SignInModel.cs",
-              "DocumentMoniker": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Models\\Account\\SignInModel.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Account\\SignInModel.cs",
-              "ToolTip": "C:\\Users\\BOSS\\Desktop\\MOCK2\\TutorFInder\\FTSA\\Entities\\Models\\Account\\SignInModel.cs",
-              "RelativeToolTip": "Entities\\Models\\Account\\SignInModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T04:29:43.062Z"
+              "WhenOpened": "2024-10-24T13:46:34.055Z",
+              "EditorCaption": ""
             }
           ]
         },

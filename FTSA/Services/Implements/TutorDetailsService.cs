@@ -25,7 +25,27 @@ namespace Services.Implements
         public async Task<IEnumerable<RequestTutorDetails>?> FindAllAsync(bool trackChanges)
         {
             var tutors = await _tutorDetailsRepository.FindAllAsync(trackChanges);
-            return tutors?.Select(t => MapToDto(t)).ToList();
+            return tutors?.AsEnumerable().Select(t => new RequestTutorDetails
+            {
+                UserId = t.UserId,
+                TutorId = t.TutorId,
+                Title = t.Title,
+                Faculty = t.Faculty,
+                Transportation = t.Transportation,
+                OnlineTutor = t.OnlineTutor,
+                SelfIntroduction = t.SelfIntroduction,
+                TeachingAchievement = t.TeachingAchievement,
+                AcademicSpecialty = t.AcademicSpecialty,
+                Photo = t.Photo,
+                IncludingPhotos = t.IncludingPhotos,
+                UserName = t.User?.UserName,
+                DateOfBirth = t.User?.DateOfBirth,
+                PlaceOfWork = t.User?.PlaceOfWork,
+                City = t.User?.Location?.CityOrProvince,
+                District = t.User?.Location?.District,
+                Gender = t.User?.Gender,
+                UpdateDate = t.User?.UpdateDate
+            }).ToList();
         }
 
         public async Task<RequestTutorDetails?> FindByIdAsync(Guid id)
@@ -71,7 +91,27 @@ namespace Services.Implements
         public async Task<List<RequestTutorDetails>?> SearchTutorsAsync(Expression<Func<RequestTutorDetails, bool>> expression, bool trackChanges)
         {
             var tutors = await _tutorDetailsRepository.FindByConditionAsync(MapExpressionToEntity(expression), trackChanges);
-            return tutors?.Select(t => MapToDto(t)).ToList();
+            return tutors?.AsEnumerable().Select(t => new RequestTutorDetails
+            {
+                UserId = t.UserId,
+                TutorId = t.TutorId,
+                Title = t.Title,
+                Faculty = t.Faculty,
+                Transportation = t.Transportation,
+                OnlineTutor = t.OnlineTutor,
+                SelfIntroduction = t.SelfIntroduction,
+                TeachingAchievement = t.TeachingAchievement,
+                AcademicSpecialty = t.AcademicSpecialty,
+                Photo = t.Photo,
+                IncludingPhotos = t.IncludingPhotos,
+                UserName = t.User?.UserName,
+                DateOfBirth = t.User?.DateOfBirth,
+                PlaceOfWork = t.User?.PlaceOfWork,
+                City = t.User?.Location?.CityOrProvince,
+                District = t.User?.Location?.District,
+                Gender = t.User?.Gender,
+                UpdateDate = t.User?.UpdateDate
+            }).ToList();
         }
 
         private RequestTutorDetails MapToDto(TutorDetails tutor)

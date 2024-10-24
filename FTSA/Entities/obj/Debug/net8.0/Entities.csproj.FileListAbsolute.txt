@@ -28,3 +28,4 @@ C:\Users\BOSS\Desktop\MOCK2\TutorFInder\FTSA\Entities\obj\Debug\net8.0\refint\En
 C:\Users\BOSS\Desktop\MOCK2\TutorFInder\FTSA\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\BOSS\Desktop\MOCK2\TutorFInder\FTSA\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
 C:\Users\BOSS\Desktop\MOCK2\TutorFInder\FTSA\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\Users\BOSS\Desktop\MOCK2\TutorFInder\FTSA\Entities\bin\Debug\net8.0\appsettings.json

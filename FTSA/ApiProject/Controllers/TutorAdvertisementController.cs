@@ -86,7 +86,10 @@ namespace ApiProject.Controllers
 
         private Expression<Func<RequestTutorAdvertisement, bool>> BuildSearchExpression(string query)
         {
-            return ad => ad.Description.Contains(query) || ad.Title.Contains(query);
+            return ad => ad.Description.Contains(query) ||
+                  ad.Title.Contains(query) ||
+                  ad.City.Contains(query) ||
+                  ad.UserName.Contains(query);
         }
     }
 }

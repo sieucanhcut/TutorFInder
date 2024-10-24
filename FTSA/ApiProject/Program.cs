@@ -5,6 +5,8 @@ using NETCore.MailKit.Core;
 using Repositories.Implements;
 using Repositories.Interfaces;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Services.Interfaces;
+using Services.Implements;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,12 @@ builder.Services.AddDbContext<TutorWebContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICustomEmailService, CustomEmailService>();
+builder.Services.AddScoped<ITutorAdvertisementRepository, TutorAdvertisementRepository>();
+builder.Services.AddScoped<ITutorDetailsRepository, TutorDetailsRepository>();
+builder.Services.AddScoped<ITutorDetailsService, TutorDetailsService>();
+builder.Services.AddScoped<ITutorAdvertisementService, TutorAdvertisementService>();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Configure CORS
 builder.Services.AddCors(options =>
