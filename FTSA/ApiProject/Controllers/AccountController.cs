@@ -112,7 +112,7 @@ namespace FTSA.Controllers
             await _context.SaveChangesAsync();
 
             // Redirect về trang đăng ký với thông báo thành công
-            return Redirect($"http://localhost:5173/register?success=true");
+            return Redirect($"http://localhost:3000/register?success=true");
         }
 
         [HttpPost("login")]
@@ -185,7 +185,7 @@ namespace FTSA.Controllers
 
             // Tìm người dùng trong cơ sở dữ liệu
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
-            if (user == null)
+            if (user == null)   
             {
                 return BadRequest(new { message = "Email không tồn tại." });
             }
@@ -197,7 +197,7 @@ namespace FTSA.Controllers
             await _context.SaveChangesAsync();
 
             // Tạo link reset password
-            var resetLink = $"http://localhost:5173/reset-password?token={token}&email={user.Email}";
+            var resetLink = $"http://localhost:3000/reset-password?token={token}&email={user.Email}";
 
             // Soạn nội dung email
             string subject = "Yêu cầu thay đổi mật khẩu";

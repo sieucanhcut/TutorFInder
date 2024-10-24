@@ -24,7 +24,7 @@ namespace Entities
         public DateTime? SignDate { get; set; }
         [Column(TypeName = "nvarchar(255)")]
         [Required(ErrorMessage = "This field is required")]
-        public string? ContractPaper { get; set; } //chua link
+        public string? ContractPaper { get; set; } 
         public Invoice? Invoice { get; set; }
     }
 }

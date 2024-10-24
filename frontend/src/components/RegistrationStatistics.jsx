@@ -12,7 +12,7 @@ const RegistrationStatistics = () => {
     const [error, setError] = useState(null);
     const [period, setPeriod] = useState('month'); // Default to month
 
-    useEffect(() => {
+    useEffect(() => {   
         const fetchStatistics = async () => {
             try {
                 const response = await axios.get(`http://localhost:5145/api/admin/statistics?period=${period}`);

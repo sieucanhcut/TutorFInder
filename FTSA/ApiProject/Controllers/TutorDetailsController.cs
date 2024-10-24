@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Services.Implements;
 using System.Linq.Expressions;
 using System.Security.Claims;
+using Services.Interfaces;
 
 namespace ApiProject.Controllers
 {
@@ -12,9 +13,9 @@ namespace ApiProject.Controllers
     [ApiController]
     public class TutorDetailsController : ControllerBase
     {
-        private readonly TutorDetailsService _tutorDetailsService;
+        private readonly ITutorDetailsService _tutorDetailsService;
 
-        public TutorDetailsController(TutorDetailsService tutorDetailsService)
+        public TutorDetailsController(ITutorDetailsService tutorDetailsService)
         {
             _tutorDetailsService = tutorDetailsService;
         }

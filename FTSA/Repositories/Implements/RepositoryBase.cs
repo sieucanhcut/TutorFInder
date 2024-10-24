@@ -7,7 +7,6 @@ namespace Repositories.Implements
 {
     public class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
-        // Thay đổi mức độ truy cập của TutorWebContext từ private thành protected
         protected readonly TutorWebContext _context;
 
         public RepositoryBase(TutorWebContext context)
